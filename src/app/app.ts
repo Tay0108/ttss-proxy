@@ -15,7 +15,7 @@ class App {
   private app = new Koa();
   private router = new Router();
 
-  private PORT = process.env.port || 3003;
+  private PORT = process.env.PORT || 3003;
 
   private constructor() {
     dotenv.config();
