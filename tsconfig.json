@@ -6,8 +6,8 @@
       "module": "commonjs",
       "moduleResolution": "node",
       "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "noImplicitAny": true
+      "experimentalDecorators": true
+     //  "noImplicitAny": true disabling for testing heroku
     }
   }
   
